@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mishthi Armal | IT Engineering Student</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        /* HOME SECTION */
+
+        .home {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 50px;
+            min-height: 85vh;
+            padding: 60px 8%;
+        }
+
+        .home-content {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .home-image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-circle {
+            width: 320px;
+            height: 320px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-circle img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 25px;
+            margin-top: 25px;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .projects-container,
+        .certifications-container,
+        .experience-container,
+        .achievements-container,
+        .skills-container,
+        .education-container,
+        .contact-container {
+            display: grid;
+            gap: 25px;
+        }
+
+        .project-links a,
+        .certificate-card a,
+        .contact-card a {
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .student-details {
+            margin-top: 20px;
+            line-height: 1.8;
+            font-size: 1rem;
+        }
+
+        .student-details strong {
+            color: inherit;
+        }
+
+        @media (max-width: 768px) {
+
+            .home {
+                flex-direction: column;
+                text-align: center;
+                padding: 40px 5%;
+            }
+
+            .home-content {
+                width: 100%;
+            }
+
+            .home-image {
+                width: 100%;
+                order: 2;
+            }
+
+            .buttons,
+            .social-links {
+                justify-content: center;
+            }
+
+            .image-circle {
+                width: 250px;
+                height: 250px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVIGATION BAR
+===================================================== -->
+
+<nav class="navbar">
+
+    <div class="logo">
+        Mishthi's Portfolio<span>.</span>
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+</nav>
+
+
+
+<!-- =====================================================
+     HOME SECTION
+===================================================== -->
+
+<section id="home" class="home">
+
+    <div class="home-content">
+
+        <p class="greeting">
+            Hello, I'm
+        </p>
+
+        <h1>
+            Mishthi Armal
+        </h1>
+
+        <h2>
+            IT Engineering Student
+        </h2>
+
+        <p class="role">
+            Aspiring Software Developer
+        </p>
+
+        <p class="description">
+            I am a third-year Information Technology engineering
+            student passionate about software development, web
+            technologies, programming and problem solving.
+            I enjoy building projects and continuously learning
+            new technologies.
+        </p>
+
+        <div class="student-details">
+
+            <p>
+                <strong>College:</strong>
+                Shivna College of Engineering and Technology
+            </p>
+
+            <p>
+                <strong>Year:</strong>
+                Third Year
+            </p>
+
+            <p>
+                <strong>Branch:</strong>
+                Information Technology
+            </p>
+
+            <p>
+                <strong>CGPA:</strong>
+                8.9
+            </p>
+
+        </div>
+
+
+        <!-- BUTTONS -->
+
+        <div class="buttons">
+
+            <a href="#projects" class="btn primary-btn">
+                View My Projects
+            </a>
+
+        </div>
+
+
+        <!-- SOCIAL LINKS -->
+
+        <div class="social-links">
+
+            <a href="https://github.com/MishthiArmal"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                GitHub
+
+            </a>
+
+            <a href="https://www.linkedin.com/in/mishthi-armal-5720293a4/"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                LinkedIn
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- RIGHT SIDE IMAGE -->
+
+    <div class="home-image">
+
+        <div class="image-circle">
+
+            <img src="../images.jpg/mishthi.jpeg"
+                 alt="Mishthi Armal">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT SECTION
+===================================================== -->
+
+<section id="about" class="about">
+
+    <div class="about-container">
+
+        <div class="about-content">
+
+            <p class="section-title">
+                ABOUT ME
+            </p>
+
+            <h2>
+                Get to Know Me
+            </h2>
+
+            <p>
+                I am a third-year Information Technology engineering
+                student at Shivna College of Engineering and Technology.
+                I have a CGPA of 8.9 and a strong interest in software
+                development and modern web technologies.
+            </p>
+
+            <p>
+                I enjoy creating projects, solving programming problems
+                and exploring new technologies. I am continuously
+                improving my technical and problem-solving skills.
+            </p>
+
+            <p>
+                My goal is to become a skilled software developer and
+                build useful, efficient and real-world applications.
+            </p>
+
+            <a href="mishthi armal updated resume.pdf"
+               class="about-btn"
+               target="_blank">
+
+                View My Resume
+
+            </a>
+
+        </div>
+
+
+        <div class="about-info">
+
+            <div class="info-box">
+
+                <h3>
+                    🎓 Education
+                </h3>
+
+                <p>
+                    B.Tech / Engineering<br>
+                    Information Technology
+                </p>
+
+            </div>
+
+
+            <div class="info-box">
+
+                <h3>
+                    🏫 College
+                </h3>
+
+                <p>
+                    Sipna College of Engineering and Technology
+                </p>
+
+            </div>
+
+
+            <div class="info-box">
+
+                <h3>
+                    📊 CGPA
+                </h3>
+
+                <p>
+                    8.9
+                </p>
+
+            </div>
+
+
+            <div class="info-box">
+
+                <h3>
+                    📚 Currently Learning
+                </h3>
+
+                <p>
+                    Java • Python<br>
+                    JavaScript • DSA
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SKILLS SECTION
+===================================================== -->
+
+<section id="skills" class="skills">
+
+    <div class="section-heading">
+
+        <p class="section-title">
+            MY SKILLS
+        </p>
+
+        <h2>
+            Technologies I Work With
+        </h2>
+
+        <p>
+            Technologies and tools that I have learned
+            and am currently improving.
+        </p>
+
+    </div>
+
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+
+            <h3>
+                💻 Programming
+            </h3>
+
+            <div class="skill-list">
+
+                <span>Java</span>
+                <span>Python</span>
+                <span>JavaScript</span>
+                <span>C</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <h3>
+                🌐 Web Development
+            </h3>
+
+            <div class="skill-list">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Bootstrap</span>
+                <span>JavaScript</span>
+                <span>PHP</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <h3>
+                🗄️ Database
+            </h3>
+
+            <div class="skill-list">
+
+                <span>MySQL</span>
+                <span>SQL</span>
+                <span>DBMS</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <h3>
+                🛠️ Tools & Technologies
+            </h3>
+
+            <div class="skill-list">
+
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+                <span>XAMPP</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <h3>
+                📚 Currently Learning
+            </h3>
+
+            <div class="skill-list">
+
+                <span>Data Structures</span>
+                <span>Algorithms</span>
+                <span>React</span>
+                <span>Cloud Computing</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     EDUCATION SECTION
+===================================================== -->
+
+<section id="education" class="education">
+
+    <div class="section-heading">
+
+        <p class="section-title">
+            EDUCATION
+        </p>
+
+        <h2>
+            My Educational Journey
+        </h2>
+
+    </div>
+
+
+    <div class="education-container">
+
+        <div class="education-card">
+
+            <div class="education-year">
+                2024 – Present
+            </div>
+
+            <h3>
+                B.Tech / Engineering
+            </h3>
+
+            <h4>
+                Information Technology
+            </h4>
+
+            <p>
+                Shivna College of Engineering and Technology
+            </p>
+
+            <p>
+                Currently in Third Year
+            </p>
+
+            <p>
+                CGPA: 8.9
+            </p>
+
+            <p>
+                Currently pursuing my undergraduate degree in
+                Information Technology and developing my technical
+                skills in programming, databases, web development
+                and computer science.
+            </p>
+
+        </div>
+
+
+        <div class="education-card">
+
+            <div class="education-year">
+                12th Grade
+            </div>
+
+            <h3>
+                Higher Secondary Education
+            </h3>
+
+            <h4>
+                Science
+            </h4>
+
+            <p>
+                Completed higher secondary education with a focus
+                on science and developed an interest in technology
+                and computer science.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PROJECTS SECTION
+===================================================== -->
+
+<section id="projects" class="projects">
+
+    <div class="section-heading">
+
+        <p class="section-title">
+            MY PROJECTS
+        </p>
+
+        <h2>
+            Projects I've Built
+        </h2>
+
+        <p>
+            A collection of projects that demonstrate
+            my programming and development skills.
+        </p>
+
+    </div>
+
+
+    <div class="projects-container">
+
+        <!-- PROJECT 1 -->
+
+        <div class="project-card">
+
+            <div class="project-content">
+
+                <h3>
+                    🧮 Basic Calculator
+                </h3>
+
+                <p>
+                    A simple calculator application that performs
+                    basic arithmetic operations using an interactive
+                    user interface.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+                <div class="project-links">
+
+                    <a href="https://github.com/MishthiArmal/Calculator"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        GitHub
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PROJECT 2 -->
+
+        <div class="project-card">
+
+            <div class="project-content">
+
+                <h3>
+                    🛒 Amazon Clone Webpage
+                </h3>
+
+                <p>
+                    A responsive Amazon clone webpage developed
+                    using HTML, CSS and Bootstrap. It includes
+                    a product layout, navigation bar, shopping
+                    interface and responsive design.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Bootstrap</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PROJECT 3 -->
+
+        <div class="project-card">
+
+            <div class="project-content">
+
+                <h3>
+                    🖱️ Hand Gesture Mouse Controller
+                </h3>
+
+                <p>
+                    A computer vision project that uses hand
+                    gestures to control mouse movement and actions.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>Python</span>
+                    <span>OpenCV</span>
+                    <span>MediaPipe</span>
+                    <span>PyAutoGUI</span>
+
+                </div>
+
+                <div class="project-links">
+
+                    <a href="https://github.com/MishthiArmal/gesture-movements-from-mouse"
+                       target="_blank"
+                       rel="noopener noreferrer">
+
+                        GitHub
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PROJECT 4 -->
+
+        <div class="project-card">
+
+            <div class="project-content">
+
+                <h3>
+                    🚀 Future Project
+                </h3>
+
+                <p>
+                    A placeholder for my next major software
+                    development project.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>React</span>
+                    <span>API</span>
+                    <span>Database</span>
+
+                </div>
+
+                <div class="project-links">
+
+                    <a href="#projects">
+                        Coming Soon
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CERTIFICATIONS SECTION
+===================================================== -->
+
+<section id="certifications" class="certifications">
+
+    <div class="section-heading">
+
+        <p class="section-title">
+            CERTIFICATIONS
+        </p>
+
+        <h2>
+            Courses & Certifications
+        </h2>
+
+    </div>
+
+
+    <div class="certifications-container">
+
+        <div class="certificate-card">
+
+            <h3>
+                SIH 2025 Certification
+            </h3>
+
+            <p>
+                Smart India Hackathon 2025 participation certificate.
+            </p>
+
+            <a href="SIH 2025.jpeg"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                View Certificate
+
+            </a>
+
+        </div>
+
+
+        <div class="certificate-card">
+
+            <h3>
+                EduSkills AI-ML Virtual Internship
+            </h3>
+
+            <p>
+                Completed the EduSkills AI-ML Virtual Internship.
+            </p>
+
+            <a href="eduskills AI-ML.jpeg"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                View Certificate
+
+            </a>
+
+        </div>
+
+
+        <div class="certificate-card">
+
+            <h3>
+                EduSkills Media and Entertainment Cloud Engineering Virtual Internship
+            </h3>
+
+            <p>
+                Completed the Media and Entertainment Cloud Engineering
+                Virtual Internship by AWS Skill Builder.
+            </p>
+
+            <a href="eduskills aws.jpeg"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                View Certificate
+
+            </a>
+
+        </div>
+
+
+        <div class="certificate-card">
+
+            <h3>
+                Microsoft Describe Cloud Computing Model Module
+            </h3>
+
+            <p>
+                Completed the Microsoft Describe Cloud Computing Model
+                learning module.
+            </p>
+
+            <a href="microsoft module.jpeg"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                View Certificate
+
+            </a>
+
+        </div>
+
+
+        <div class="certificate-card">
+
+            <h3>
+                SIH 2026 Certification
+            </h3>
+
+            <p>
+                Smart India Hackathon 2026 participation certificate.
+            </p>
+
+            <a href="SIH 2026.jpeg"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                View Certificate
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     EXPERIENCE SECTION
+===================================================== -->
+
+<section id="experience" class="experience">
+
+    <div class="section-heading">
+
+        <p class="section-title">
+            EXPERIENCE
+        </p>
+
+        <h2>
+            Internship & Experience
+        </h2>
+
+        <p>
+            Currently building practical experience through
+            academic projects, technical training and self-learning.
+        </p>
+
+    </div>
+
+
+    <div class="experience-container">
+
+        <div class="experience-card">
+
+            <h3>
+                Student Developer
+            </h3>
+
+            <h4>
+                Academic Projects & Self-Learning
+            </h4>
+
+            <p>
+                Developing practical skills through projects in
+                web development, programming and computer vision.
+                Currently improving my knowledge of Java, Python,
+                HTML, CSS, Bootstrap, JavaScript and databases.
+            </p>
+
+            <div class="project-tech">
+
+                <span>Java</span>
+                <span>Python</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Bootstrap</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="experience-card">
+
+            <h3>
+                Technical Training & Virtual Programs
+            </h3>
+
+            <h4>
+                Learning and Skill Development
+            </h4>
+
+            <p>
+                Participated in technical learning programs and
+                virtual internship-based training to improve
+                knowledge of Artificial Intelligence, Machine
+                Learning and Cloud Computing.
+            </p>
+
+            <div class="project-tech">
+
+                <span>AI-ML</span>
+                <span>AWS Cloud</span>
+                <span>Cloud Computing</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ACHIEVEMENTS SECTION
+===================================================== -->
+
+<section id="achievements" class="achievements">
+
+    <div class="section-heading">
+
+        <p class="section-title">
+            ACHIEVEMENTS
+        </p>
+
+        <h2>
+            My Achievements
+        </h2>
+
+    </div>
+
+
+    <div class="achievements-container">
+
+        <div class="achievement-card">
+
+            <h3>
+                💻 Technical Projects
+            </h3>
+
+            <p>
+                Developed multiple projects using programming
+                and web technologies.
+            </p>
+
+        </div>
+
+
+        <div class="achievement-card">
+
+            <h3>
+                📜 Technical Training
+            </h3>
+
+            <p>
+                Participated in technical training programs
+                and virtual learning programs.
+            </p>
+
+        </div>
+
+
+        <div class="achievement-card">
+
+            <h3>
+                🚀 Continuous Learning
+            </h3>
+
+            <p>
+                Continuously learning programming, development
+                and emerging technologies.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT SECTION
+===================================================== -->
+
+<section id="contact" class="contact">
+
+    <div class="section-heading">
+
+        <p class="section-title">
+            CONTACT
+        </p>
+
+        <h2>
+            Let's Connect
+        </h2>
+
+        <p>
+            I'm always interested in learning,
+            collaborating and exploring new opportunities.
+        </p>
+
+    </div>
+
+
+    <div class="contact-container">
+
+        <div class="contact-card">
+
+            <h3>
+                📧 Email
+            </h3>
+
+            <p>
+                armalmishti5@gmail.com
+            </p>
+
+            <a href="mailto:armalmishti5@gmail.com">
+                Send Email
+            </a>
+
+        </div>
+
+
+        <div class="contact-card">
+
+            <h3>
+                💼 LinkedIn
+            </h3>
+
+            <p>
+                Connect with me professionally.
+            </p>
+
+            <a href="https://www.linkedin.com/in/mishthi-armal-5720293a4/"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                Visit LinkedIn
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <p>
+        © 2026 Mishthi Armal. All Rights Reserved.
+    </p>
+
+
+    <div class="footer-links">
+
+        <a href="#home">
+            Home
+        </a>
+
+        <a href="#about">
+            About
+        </a>
+
+        <a href="#projects">
+            Projects
+        </a>
+
+        <a href="#contact">
+            Contact
+        </a>
+
+    </div>
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
